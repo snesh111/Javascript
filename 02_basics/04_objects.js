@@ -42,4 +42,18 @@ const accHolder =[
             NAme:"sneh"
         },
 ]
-console.log(accHolder[2].id3)  
+// console.log(accHolder[2].id3)  
+
+// destructure
+const AWScourse ={
+
+    coursePrice : "100000",
+    CourseInstructor : "raj",
+    courseName : "aws"
+}
+
+// console.log(AWScourse.courseName);
+
+const  {CourseInstructor : instructor } = AWScourse
+console.log(instructor );
+ 
